@@ -4,7 +4,7 @@ Ce projet propose un formulaire de contact sécurisé en PHP, utilisant [PHPMail
 
 ## Prérequis
 
-- PHP >= 7.2.5
+- PHP >= 8.3
 - [Composer](https://getcomposer.org/)
 - Un compte [Mailtrap](https://mailtrap.io/)
 
