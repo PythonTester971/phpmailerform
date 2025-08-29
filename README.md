@@ -12,6 +12,10 @@ Ce projet propose un formulaire de contact sécurisé en PHP, utilisant [PHPMail
 
 1. **Clone le dépôt ou copie les fichiers dans ton projet**
 
+   ```bash
+   git clone https://github.com/PythonTester971/phpmailerform.git
+   ```
+
 2. **Installe les dépendances PHP**
 
    ```sh
@@ -38,12 +42,7 @@ Ce projet propose un formulaire de contact sécurisé en PHP, utilisant [PHPMail
    APP_NAME="NomDuProjet"
    ```
 
-4. **Configure le serveur web**
-
-   - Place le dossier `public/` comme racine web (DocumentRoot).
-   - Assure-toi que PHP a accès à la fonction `mail` ou que les ports SMTP ne sont pas bloqués.
-
-5. **Accède au formulaire**
+4. **Accède au formulaire**
 
    Ouvre `contact.php` dans ton navigateur. Les messages envoyés arriveront dans ta boîte Mailtrap.
 
@@ -52,7 +51,7 @@ Ce projet propose un formulaire de contact sécurisé en PHP, utilisant [PHPMail
 - `contact.php` : Formulaire HTML
 - `public/send-contact.php` : Traitement et envoi du mail
 - `src/Mailer.php` : Classe d’envoi via PHPMailer
-- `.env` : Configuration (non versionnée)
+- `.env.example` : Configuration (non versionnée)
 - `vendor/` : Dépendances Composer
 
 ## Personnalisation
